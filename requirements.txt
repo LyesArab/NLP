@@ -1,0 +1,26 @@
+# FactKG Claim Verifier — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+# NLP
+spacy>=3.7,<4.0
+# After install, download the model:
+#   python -m spacy download en_core_web_sm
+
+# Knowledge-graph / SPARQL
+SPARQLWrapper>=2.0
+
+# Semantic similarity (local, no API key needed)
+sentence-transformers>=2.6
+
+# Graph traversal
+networkx>=3.0
+
+# HTTP (already in stdlib for Python 3.11+ but listed for clarity)
+requests>=2.31
+
+# .env file support
+python-dotenv>=1.0
+
+# Optional — install only when using a specific LLM back-end:
+#   Groq (free tier):           pip install groq
+#   HuggingFace Hub client:     pip install huggingface_hub

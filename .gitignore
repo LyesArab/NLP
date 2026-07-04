@@ -1,0 +1,17 @@
+
+# Python virtual environment
+.venv/
+
+# Datasets
+data/
+
+# Cache and temporary files
+temp/
+__pycache__/
+*.pyc
+
+# API keys
+.env
+
+# Results
+results/
